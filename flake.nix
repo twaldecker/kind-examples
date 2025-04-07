@@ -13,7 +13,7 @@
     {
       devShells = forEachSupportedSystem ({ pkgs }: {
         default = pkgs.mkShell {
-          packages = with pkgs; [ kind kubectl k9s ];
+          packages = with pkgs; [ kind kubectl k9s podman ];
         };
       });
     };

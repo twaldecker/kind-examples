@@ -1,7 +1,7 @@
 # kind
 
 ```
-kind create cluster
+kind create cluster --config kind_config.yml
 ```
 
 ```
